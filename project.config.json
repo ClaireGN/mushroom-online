@@ -1,0 +1,85 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wxffa46fb8f2f7071d",
+	"projectname": "mushroom-online-35",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.8.0",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "手机号登录",
+					"pathName": "pages/phone-login/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索页面",
+					"pathName": "pages/search/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "课程",
+					"pathName": "pages/course/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "课程详情",
+					"pathName": "pages/course-detail/main",
+					"query": "course_id=3",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "播放页面",
+					"pathName": "pages/play/main",
+					"query": "course_id=3",
+					"scene": null
+				}
+			]
+		}
+	}
+}
